@@ -1,6 +1,6 @@
 # simple-webapp
 
-his is a simple web application using Python Flask and MySQL database. This is used in the demonstration of development of Ansible Playbooks.
+This is a simple web application using Python Flask and MySQL database. This is used in the demonstration of development of Ansible Playbooks.
 
 Below are the steps required to get this working on a base linux system.
 
@@ -12,11 +12,11 @@ Start Web Server
 1. Install all required dependencies
 Python and its dependencies
 
-apt-get install -y python python-setuptools python-dev build-essential python-pip python-mysqldb
+- apt-get install -y python python-setuptools python-dev build-essential python-pip python-mysqldb
 2. Install and Configure Database
 Install MySQL database
 
-apt-get install -y mysql-server mysql-client
+- apt-get install -y mysql-server mysql-client
 3. Start Database Service
 Start the database service
 
